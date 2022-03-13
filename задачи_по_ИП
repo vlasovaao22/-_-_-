@@ -1,0 +1,55 @@
+А
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    long a = sc.nextLong();
+	    long b = sc.nextLong();
+	    long c = a+b;
+		System.out.println(c);
+	}
+}
+
+В
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int N = sc.nextInt();
+	    int M = sc.nextInt();
+	    int c = 4*N + 4*N*M*4;
+		System.out.println(c);
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+D
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int N = sc.nextInt();
+	    int k = 0;
+	    while (N % 4 == 0){
+	        N = N / 2;
+	        k = k + 1;
+	    }
+		System.out.println(k);
+		
+	}
+}
+
+
+
+
